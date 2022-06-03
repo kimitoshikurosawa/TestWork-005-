@@ -63,7 +63,7 @@ The postman collection is on root folder `postman-collection`
 <!-- CONTACT -->
 ## Contact
 
-Kimana MISAGO - [@your_Kim_Pliskin](https://twitter.com/Kim_Pliskin) - misagokim@gmail.com
+Kimana MISAGO - [@Kim_Pliskin](https://twitter.com/Kim_Pliskin) - misagokim@gmail.com
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
