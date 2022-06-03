@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "998e795b-ec36-413e-947f-f984f096a339",
+		"name": "sort_petitions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/petitions/sort/Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"title\": \"Toxicity\",\n \"category\": \"Game\",\n \"description\": \"Ban\",\n \"author\": \"Pliskin\",\n \"signeesBetween\": [\n        100,\n        500\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/petitions/sort/Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"petitions",
+						"sort",
+						"Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk"
+					]
+				},
+				"description": "this api call is use to sort and filter petitions"
+			},
+			"response": []
+		}
+	]
+}

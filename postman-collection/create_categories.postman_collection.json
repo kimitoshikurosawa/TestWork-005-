@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "64287d85-465d-437a-84f9-56efd0dedfeb",
+		"name": "create_categories",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/categories/Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Game\",\n    \"description\": \"This topic is about video game\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/categories/Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"categories",
+						"Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk"
+					]
+				},
+				"description": "This api call create a Categorie"
+			},
+			"response": []
+		}
+	]
+}

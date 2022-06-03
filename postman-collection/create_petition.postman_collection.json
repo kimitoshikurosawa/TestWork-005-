@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "d107433b-25eb-4d42-a946-7dc5fe3ba5a2",
+		"name": "create_petition",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/petitions/create/Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Toxicity\",\n    \"author\": \"Kim Pliskin\",\n    \"description\": \"Please ban the user with ID:545587\",\n    \"signees\": 500,\n    \"category_id\": 1\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/petitions/create/Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"petitions",
+						"create",
+						"Gt5ftBsRjPM4WBnHKhe5pClkldEKG7Tk"
+					]
+				},
+				"description": "This api call is use to create a petition"
+			},
+			"response": []
+		}
+	]
+}
